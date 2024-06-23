@@ -1,0 +1,38 @@
+.post-page {
+  background-color: rgb(255, 228, 181, 0.8);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 900px;
+  width: 100%;
+  .container {
+    .post-page__content {
+      .post-page__content-title {
+        font-family: 'DM Serif Display', serif;
+        text-align: center;
+        padding-bottom: 40px;
+      }
+      p.post-page__content-text {
+        font-size: 18px;
+        font-family: 'Arsenal', sans-serif;
+      }
+    }
+    .post-page__btn {
+      padding-top: 100px;
+      text-align: right;
+      font-family: 'DM Serif Display', serif;
+      a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid black;
+        transition: all ease 0.5s;
+        &:hover{
+          background-color: rgba(0, 0, 0, 0.8);
+          color: rgb(255, 228, 181, 0.8);
+          border: 1px solid transparent;
+        }
+      }
+    }
+  }
+}

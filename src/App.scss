@@ -1,0 +1,55 @@
+/*Adaptive*/
+@import "adaptive-file/adaptive";
+
+/*Adaptive-menu*/
+@import "components/menu/menu";
+@import "adaptive-file/adaptive-menu";
+
+/*Vars*/
+@import "vars/vars";
+
+/*Components*/
+@import "components/header/header";
+@import "components/footer/footer";
+@import "components/blogs/blogs";
+
+@import "components/blogs/post-page/postPage";
+@import "components/blogs/posts/posts";
+
+body {
+  margin: 0;
+  &.menu-open {
+    overflow: hidden;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

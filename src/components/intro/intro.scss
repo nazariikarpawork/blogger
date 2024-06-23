@@ -1,0 +1,12 @@
+.intro {
+  .intro__inner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:50%;
+    .intro__inner-text{
+      color: #E4A598;
+      font-family: 'Pacifico', cursive;
+    }
+  }
+}
